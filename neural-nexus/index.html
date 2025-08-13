@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOREN OCHIENG | Neural Nexus</title>
+  <meta name="description" content="Cybernetic portfolio of Loren Ochieng | Computer Scientist & Developer">
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="gradient-bg"></div>
+
+  <!-- Cyber Glass Navigation -->
+  <nav class="glass-nav">
+    <div class="nav-container">
+      <a href="#" class="logo terminal-text">LOREN_OCHIENG></a>
+      <div class="nav-links">
+        <a href="#home" class="underline-animation">HOME</a>
+        <a href="#projects" class="underline-animation">PROJECTS</a>
+        <a href="#skills" class="underline-animation">SKILLS</a>
+        <a href="#contact" class="underline-animation">CONTACT</a>
+        <button id="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-brain"></i>
+        </button>
+      </div>
+      <button class="hamburger">
+        <div class="bar"></div>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section with 3D Hologram -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="typewriter" data-words='["SYSTEM_ACTIVATED", "USER: LOREN", "ROLE: DEVELOPER", "MODE: CREATIVE"]'>
+        <span class="gradient-text">LOREN</span> <span class="highlight">OCHIENG</span>
+      </h1>
+      <p class="subtitle">Computer Scientist | Cyber Attendant | AI Explorer</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary grow-on-hover">
+          <i class="fas fa-code"></i> VIEW PROJECTS
+        </a>
+        <a href="#contact" class="btn secondary grow-on-hover">
+          <i class="fas fa-paper-plane"></i> CONTACT
+        </a>
+      </div>
+    </div>
+
+    <!-- 3D Hologram Container -->
+    <div id="hologram-container"></div>
+
+    <div class="scroll-down">
+      <span>SCROLL_TO_EXPLORE</span>
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+  <!-- Project Matrix -->
+  <section id="projects" class="projects">
+    <h2 class="section-title">PROJECT_<span class="highlight">MATRIX</span></h2>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card pulsar">
+        <div class="project-image">
+          <img src="assets/projects/project1.jpg" alt="E-Commerce Dashboard">
+          <div class="project-links">
+            <a href="#" class="link-icon pulse" aria-label="Live Demo">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+            <a href="#" class="link-icon pulse" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>E-COMMERCE DASHBOARD</h3>
+          <p>Admin panel with real-time analytics and inventory</p>
+          <div class="tech-tags">
+            <span>REACT</span>
+            <span>NODE.JS</span>
+            <span>MONGODB</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 (Your WiFi Billing System) -->
+      <div class="project-card protostar">
+        <div class="project-image">
+          <img src="assets/projects/project2.jpg" alt="WiFi Billing System">
+          <div class="project-links">
+            <a href="#" class="link-icon pulse" aria-label="Live Demo">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+            <a href="#" class="link-icon pulse" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>WIFI BILLING SYSTEM</h3>
+          <p>Automated network management solution</p>
+          <div class="tech-tags">
+            <span>PYTHON</span>
+            <span>JAVASCRIPT</span>
+            <span>GSAP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skill Neural Network -->
+  <section id="skills" class="skills">
+    <h2 class="section-title">SKILL_<span class="highlight">SYNERGY</span></h2>
+
+    <div class="skills-graph">
+      <!-- Skill Nodes -->
+      <div class="skill-node" style="--x:20%; --y:30%;" data-skills="PYTHON,AI,AUTOMATION">
+        <div class="node-core"></div>
+        <span>PYTHON</span>
+      </div>
+      <div class="skill-node" style="--x:60%; --y:50%;" data-skills="JAVASCRIPT,WEB,FRONTEND">
+        <div class="node-core"></div>
+        <span>JAVASCRIPT</span>
+      </div>
+      <!-- More nodes... -->
+    </div>
+
+    <!-- Skill Icons Grid -->
+    <div class="skills-grid">
+      <div class="skill grow-on-hover">
+        <i class="fab fa-python"></i>
+        <span>PYTHON</span>
+      </div>
+      <div class="skill grow-on-hover">
+        <i class="fab fa-js"></i>
+        <span>JAVASCRIPT</span>
+      </div>
+      <div class="skill grow-on-hover">
+        <i class="fab fa-react"></i>
+        <span>REACT</span>
+      </div>
+      <div class="skill grow-on-hover">
+        <i class="fas fa-database"></i>
+        <span>SQL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quantum Contact -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">QUANTUM_<span class="highlight">LINKS</span></h2>
+
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" id="name" required>
+        <label for="name">IDENTITY_STRING</label>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" required>
+        <label for="email">CONTACT_NODE</label>
+      </div>
+      <div class="form-group">
+        <textarea id="message" rows="5" required></textarea>
+        <label for="message">MESSAGE_PAYLOAD</label>
+      </div>
+      <button type="submit" class="btn primary grow-on-hover">
+        <i class="fas fa-paper-plane"></i> INITIATE_TRANSMISSION
+      </button>
+    </form>
+
+    <!-- CV Upload -->
+    <div class="cv-upload">
+      <input type="file" id="cv-input" accept=".pdf,.docx" hidden>
+      <label for="cv-input" class="upload-btn">
+        <i class="fas fa-cloud-upload-alt"></i> UPLOAD_CV
+      </label>
+    </div>
+
+    <!-- Social Links -->
+    <div class="social-links">
+      <a href="https://github.com/sys-bruce" target="_blank" class="grow-on-hover" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" class="grow-on-hover" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://wa.me/254716712245" target="_blank" class="grow-on-hover" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="mailto:lorenbruce5@gmail.com" class="grow-on-hover" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- System Footer -->
+  <footer class="footer">
+    <p>SYSTEM_UPTIME: <span id="uptime">00:00:00</span></p>
+    <p class="credits">© <span id="year"></span> LOREN OCHIENG | ALL SYSTEMS NOMINAL</p>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script src="js/typewriter.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
